@@ -7,6 +7,10 @@
         android:name="android.hardware.touchscreen"
         android:required="false" />
 
+    <queries>
+        <package android:name="com.termux" />
+    </queries>
+
     <application
         android:name=".TermuxWidgetApplication"
         android:allowBackup="false"
